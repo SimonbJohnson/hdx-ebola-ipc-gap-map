@@ -130,7 +130,10 @@ function addGeomToMap(geom){
 }
 
 function styleGeom(feature){
+
     var color = 5-Math.floor(feature.properties[output+'_reached']/feature.properties[output+'_inneed']*5);
+    console.log(color);
+    if(isNaN(color)){console.log('check');color=0;}
     return {
             fillColor: colors[color],
             color: 'black',
