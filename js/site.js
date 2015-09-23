@@ -235,7 +235,7 @@ var overlay1 = '';
 var overlay2 = '';
 var overlay3 = '';
 var data;
-var colors = ['#fef0d9','#fdd49e','#fdbb84','#fc8d59','#e34a33','#b30000'];
+var colors = ['#4575b4','#91bfdb','#e0f3f8','#fee090','#fc8d59','#d73027'];
 
 var adm1_geom = topojson.feature(gui_adm1,gui_adm1.objects.gui_adm1);
 var adm2_geom = topojson.feature(gui_adm2,gui_adm2.objects.gui_adm2);
