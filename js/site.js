@@ -241,7 +241,7 @@ var adm1_geom = topojson.feature(gui_adm1,gui_adm1.objects.gui_adm1);
 var adm2_geom = topojson.feature(gui_adm2,gui_adm2.objects.gui_adm2);
 var adm3_geom = topojson.feature(gui_adm3,gui_adm3.objects.gui_adm3);
 
-var data1url = 'http://proxy.hxlstandard.org/data.json?filter_count=7&url=https%3A//www.dropbox.com/s/ko1bxl8z69ptxny/ipc-facility-coverage-adm3.csv%3Fdl%3D1+&strip-headers=on&format=html&filter01=&filter02=&filter03=&filter04=&filter05=&filter06=&filter07=&force=1';
+var data1url = 'https://proxy.hxlstandard.org/data.json?filter_count=7&url=https%3A//www.dropbox.com/s/ko1bxl8z69ptxny/ipc-facility-coverage-adm3.csv%3Fdl%3D1+&strip-headers=on&format=html&filter01=&filter02=&filter03=&filter04=&filter05=&filter06=&filter07=&force=1';
 
 var data1Call = $.ajax({ 
     type: 'GET', 
